@@ -27,5 +27,5 @@ try {
 	}
 }
 catch(exception) {
-	document.getElementById('output').innerHTML = exception.stack;
+	document.getElementById('output').value = exception.stack;
 }
